@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+}
+.Project-Calendar{
+    width: 70%;
+    margin: 15vh auto;
+    font-size: 1em;
+    height: 100vh;
+    overflow: auto;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+
+}
+.Post{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 37vh;
+}
+.Project-Infos{
+    width: 75%;
+    border-bottom: 2px solid;
+    margin-bottom: 1em;
+    padding: 1em 0;
+}
+.Project-Image{
+    padding: 0.5em;
+    height: 32vh;
+}
+.Project-Image img{
+    height: 100%;
+}
+.Project-CountDown{
+    margin: 0 0 1.7em 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.Project-CountDown i{
+    padding-right: 1em;
+}
+.Project-Name{
+    font-size: 1.5em;
+    text-align: center;
+    /* border: 1px solid; */
+    margin-bottom: 1em;
+}
+.Project-Mint{
+    display: flex;
+    margin-bottom: 1.2em;
+}
+.Mint-Date{
+    width: 50%;
+    border-left: 3px solid;
+    padding-left: 1em;
+}
+.Mint-Price{
+    width: 50%;
+    padding-left: 1em;
+    border-left: 3px solid;
+}
+.Project-Links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Project-Links a:hover{
+    transform: scale(2, 2);
+    transition: 0.1s ease;
+}
+.Project-Twitter:hover{
+    color: rgb(82,162,243);
+    transition: 0.1s ease;
+}
+.Project-Discord:hover{
+    color: rgb(89,99,246);
+    transition: 0.1s ease;
+}
+.Project-Website:hover{
+    color: gray;
+    transition: 0.1s ease;
+}

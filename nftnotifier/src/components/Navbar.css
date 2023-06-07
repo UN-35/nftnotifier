@@ -1,0 +1,65 @@
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.Navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.Container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.2em;
+    align-items: center;
+}
+.logo img{
+    height: 70px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.links li{
+    border-bottom: 5px transparent;
+    font-weight: 600;
+}
+
+.links li:hover{
+    background: linear-gradient( to right, rgb(177,52,213), rgb(105,215,152));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.links li a:hover{
+    border-bottom: solid 5px;
+    background: linear-gradient( to right, rgb(177,52,213), rgb(105,215,152));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transition: 0.1s ease;
+}
+.Contacts{
+    display: flex;
+    justify-content: space-between;
+    width: 12%;
+}
+.Twitter a:hover{
+    color: rgb(82,162,243);
+    transition: 0.3s ease;
+}
+.Discord a:hover{
+    color: rgb(89,99,246);
+    transition: 0.3s ease;
+
+}
+.Email a:hover{
+    color: rgb(187,36,35);
+    transition: 0.3s ease;
+
+}

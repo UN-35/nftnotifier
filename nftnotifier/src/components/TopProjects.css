@@ -1,0 +1,30 @@
+.TopProjects{
+    width: 70%;
+    margin: 15vh auto;
+    font-size: 1.1em;
+    
+}
+.TopProjects h1{
+    text-align: center;
+    margin-bottom: 1em;
+}
+.TopProjects-Rank{
+    scroll-behavior: smooth;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid;
+    border-bottom: 1px solid
+}
+.Element{
+    width: 28%;
+    margin-top: 1.5em;
+}
+.Element img{
+    width: 100%;
+}
+.Element-Infos{
+    display: flex;
+    justify-content: space-between;
+}
